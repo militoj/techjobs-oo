@@ -31,7 +31,7 @@ public class JobForm {
     private String location;
 
     @NotNull
-    private String skill;
+    private String coreCompetency;
 
     @NotNull
     private String positionType;
@@ -66,21 +66,19 @@ public class JobForm {
         this.location = location;
     }
 
-    public String getSkill() {
-        return skill;
+    public String getCoreCompetency() {
+        return coreCompetency;
     }
 
-    public void setSkill(String skill) {
-        this.skill = skill;
+    public void setCoreCompetency(String coreCompetency) {
+        this.coreCompetency = coreCompetency;
     }
 
     public String getPositionType() {
         return positionType;
     }
 
-    public void setPositionType(String positionType) {
-        this.positionType = positionType;
-    }
+    public void setPositionType(String positionType) { this.positionType = positionType;}
 
 
 
