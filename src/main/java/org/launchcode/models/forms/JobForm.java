@@ -28,13 +28,13 @@ public class JobForm {
         Don't forget to add getters and setters
      */
     @NotNull
-    private String location;
+    private int locationId;
 
     @NotNull
-    private String coreCompetency;
+    private int coreCompetencyId;
 
     @NotNull
-    private String positionType;
+    private int positionTypeId;
 
 
 
@@ -58,27 +58,27 @@ public class JobForm {
 
     }
 
-    public String getLocation() {
-        return location;
+    public int getLocationId() {
+        return locationId;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
+    public void setLocationId(int locationId) {
+        this.locationId = locationId;
     }
 
-    public String getCoreCompetency() {
-        return coreCompetency;
+    public int getCoreCompetencyId() {
+        return coreCompetencyId;
     }
 
-    public void setCoreCompetency(String coreCompetency) {
-        this.coreCompetency = coreCompetency;
+    public void setCoreCompetencyId(int coreCompetencyId) {
+        this.coreCompetencyId = coreCompetencyId;
     }
 
-    public String getPositionType() {
-        return positionType;
+    public int getPositionTypeId() {
+        return positionTypeId;
     }
 
-    public void setPositionType(String positionType) { this.positionType = positionType;}
+    public void setPositionTypeId(int positionTypeId) { this.positionTypeId = positionTypeId;}
 
 
 
